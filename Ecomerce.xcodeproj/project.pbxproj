@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		3447DEB5227620580054B7C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3447DEB4227620580054B7C1 /* AppDelegate.swift */; };
-		3447DEB7227620580054B7C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3447DEB6227620580054B7C1 /* ViewController.swift */; };
 		3447DEBA227620580054B7C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3447DEB8227620580054B7C1 /* Main.storyboard */; };
 		3447DEBC2276205A0054B7C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3447DEBB2276205A0054B7C1 /* Assets.xcassets */; };
 		3447DEBF2276205A0054B7C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3447DEBD2276205A0054B7C1 /* LaunchScreen.storyboard */; };
 		3447DECA2276205A0054B7C1 /* EcomerceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3447DEC92276205A0054B7C1 /* EcomerceTests.swift */; };
 		3447DED52276205A0054B7C1 /* EcomerceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3447DED42276205A0054B7C1 /* EcomerceUITests.swift */; };
+		3447DEE322762AD50054B7C1 /* SingInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3447DEE222762AD50054B7C1 /* SingInVC.swift */; };
+		3447DEE622762D610054B7C1 /* EffectsUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3447DEE522762D610054B7C1 /* EffectsUI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,6 @@
 /* Begin PBXFileReference section */
 		3447DEB1227620570054B7C1 /* Ecomerce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ecomerce.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3447DEB4227620580054B7C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3447DEB6227620580054B7C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3447DEB9227620580054B7C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3447DEBB2276205A0054B7C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3447DEBE2276205A0054B7C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +47,8 @@
 		3447DED02276205A0054B7C1 /* EcomerceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EcomerceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3447DED42276205A0054B7C1 /* EcomerceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcomerceUITests.swift; sourceTree = "<group>"; };
 		3447DED62276205A0054B7C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3447DEE222762AD50054B7C1 /* SingInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingInVC.swift; sourceTree = "<group>"; };
+		3447DEE522762D610054B7C1 /* EffectsUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectsUI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +99,9 @@
 		3447DEB3227620580054B7C1 /* Ecomerce */ = {
 			isa = PBXGroup;
 			children = (
+				3447DEE422762AF20054B7C1 /* Extensions and Helpers */,
+				3447DEE722762FD90054B7C1 /* Controllers */,
 				3447DEB4227620580054B7C1 /* AppDelegate.swift */,
-				3447DEB6227620580054B7C1 /* ViewController.swift */,
 				3447DEB8227620580054B7C1 /* Main.storyboard */,
 				3447DEBB2276205A0054B7C1 /* Assets.xcassets */,
 				3447DEBD2276205A0054B7C1 /* LaunchScreen.storyboard */,
@@ -123,6 +126,22 @@
 				3447DED62276205A0054B7C1 /* Info.plist */,
 			);
 			path = EcomerceUITests;
+			sourceTree = "<group>";
+		};
+		3447DEE422762AF20054B7C1 /* Extensions and Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				3447DEE522762D610054B7C1 /* EffectsUI.swift */,
+			);
+			path = "Extensions and Helpers";
+			sourceTree = "<group>";
+		};
+		3447DEE722762FD90054B7C1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3447DEE222762AD50054B7C1 /* SingInVC.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,7 +275,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3447DEB7227620580054B7C1 /* ViewController.swift in Sources */,
+				3447DEE322762AD50054B7C1 /* SingInVC.swift in Sources */,
+				3447DEE622762D610054B7C1 /* EffectsUI.swift in Sources */,
 				3447DEB5227620580054B7C1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
