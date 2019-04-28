@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3447DEB5227620580054B7C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3447DEB4227620580054B7C1 /* AppDelegate.swift */; };
+		3447DEB7227620580054B7C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3447DEB6227620580054B7C1 /* ViewController.swift */; };
+		3447DEBA227620580054B7C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3447DEB8227620580054B7C1 /* Main.storyboard */; };
+		3447DEBC2276205A0054B7C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3447DEBB2276205A0054B7C1 /* Assets.xcassets */; };
+		3447DEBF2276205A0054B7C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3447DEBD2276205A0054B7C1 /* LaunchScreen.storyboard */; };
+		3447DECA2276205A0054B7C1 /* EcomerceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3447DEC92276205A0054B7C1 /* EcomerceTests.swift */; };
+		3447DED52276205A0054B7C1 /* EcomerceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3447DED42276205A0054B7C1 /* EcomerceUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3447DEC62276205A0054B7C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3447DEA9227620570054B7C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3447DEB0227620570054B7C1;
+			remoteInfo = Ecomerce;
+		};
+		3447DED12276205A0054B7C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3447DEA9227620570054B7C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3447DEB0227620570054B7C1;
+			remoteInfo = Ecomerce;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3447DEB1227620570054B7C1 /* Ecomerce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ecomerce.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3447DEB4227620580054B7C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3447DEB6227620580054B7C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3447DEB9227620580054B7C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3447DEBB2276205A0054B7C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3447DEBE2276205A0054B7C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3447DEC02276205A0054B7C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3447DEC52276205A0054B7C1 /* EcomerceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EcomerceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3447DEC92276205A0054B7C1 /* EcomerceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcomerceTests.swift; sourceTree = "<group>"; };
+		3447DECB2276205A0054B7C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3447DED02276205A0054B7C1 /* EcomerceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EcomerceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3447DED42276205A0054B7C1 /* EcomerceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcomerceUITests.swift; sourceTree = "<group>"; };
+		3447DED62276205A0054B7C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3447DEAE227620570054B7C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3447DEC22276205A0054B7C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3447DECD2276205A0054B7C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3447DEA8227620570054B7C1 = {
+			isa = PBXGroup;
+			children = (
+				3447DEB3227620580054B7C1 /* Ecomerce */,
+				3447DEC82276205A0054B7C1 /* EcomerceTests */,
+				3447DED32276205A0054B7C1 /* EcomerceUITests */,
+				3447DEB2227620580054B7C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3447DEB2227620580054B7C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3447DEB1227620570054B7C1 /* Ecomerce.app */,
+				3447DEC52276205A0054B7C1 /* EcomerceTests.xctest */,
+				3447DED02276205A0054B7C1 /* EcomerceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3447DEB3227620580054B7C1 /* Ecomerce */ = {
+			isa = PBXGroup;
+			children = (
+				3447DEB4227620580054B7C1 /* AppDelegate.swift */,
+				3447DEB6227620580054B7C1 /* ViewController.swift */,
+				3447DEB8227620580054B7C1 /* Main.storyboard */,
+				3447DEBB2276205A0054B7C1 /* Assets.xcassets */,
+				3447DEBD2276205A0054B7C1 /* LaunchScreen.storyboard */,
+				3447DEC02276205A0054B7C1 /* Info.plist */,
+			);
+			path = Ecomerce;
+			sourceTree = "<group>";
+		};
+		3447DEC82276205A0054B7C1 /* EcomerceTests */ = {
+			isa = PBXGroup;
+			children = (
+				3447DEC92276205A0054B7C1 /* EcomerceTests.swift */,
+				3447DECB2276205A0054B7C1 /* Info.plist */,
+			);
+			path = EcomerceTests;
+			sourceTree = "<group>";
+		};
+		3447DED32276205A0054B7C1 /* EcomerceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3447DED42276205A0054B7C1 /* EcomerceUITests.swift */,
+				3447DED62276205A0054B7C1 /* Info.plist */,
+			);
+			path = EcomerceUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3447DEB0227620570054B7C1 /* Ecomerce */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3447DED92276205A0054B7C1 /* Build configuration list for PBXNativeTarget "Ecomerce" */;
+			buildPhases = (
+				3447DEAD227620570054B7C1 /* Sources */,
+				3447DEAE227620570054B7C1 /* Frameworks */,
+				3447DEAF227620570054B7C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ecomerce;
+			productName = Ecomerce;
+			productReference = 3447DEB1227620570054B7C1 /* Ecomerce.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3447DEC42276205A0054B7C1 /* EcomerceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3447DEDC2276205A0054B7C1 /* Build configuration list for PBXNativeTarget "EcomerceTests" */;
+			buildPhases = (
+				3447DEC12276205A0054B7C1 /* Sources */,
+				3447DEC22276205A0054B7C1 /* Frameworks */,
+				3447DEC32276205A0054B7C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3447DEC72276205A0054B7C1 /* PBXTargetDependency */,
+			);
+			name = EcomerceTests;
+			productName = EcomerceTests;
+			productReference = 3447DEC52276205A0054B7C1 /* EcomerceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3447DECF2276205A0054B7C1 /* EcomerceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3447DEDF2276205A0054B7C1 /* Build configuration list for PBXNativeTarget "EcomerceUITests" */;
+			buildPhases = (
+				3447DECC2276205A0054B7C1 /* Sources */,
+				3447DECD2276205A0054B7C1 /* Frameworks */,
+				3447DECE2276205A0054B7C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3447DED22276205A0054B7C1 /* PBXTargetDependency */,
+			);
+			name = EcomerceUITests;
+			productName = EcomerceUITests;
+			productReference = 3447DED02276205A0054B7C1 /* EcomerceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3447DEA9227620570054B7C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Eduardo Martinez";
+				TargetAttributes = {
+					3447DEB0227620570054B7C1 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					3447DEC42276205A0054B7C1 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 3447DEB0227620570054B7C1;
+					};
+					3447DECF2276205A0054B7C1 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 3447DEB0227620570054B7C1;
+					};
+				};
+			};
+			buildConfigurationList = 3447DEAC227620570054B7C1 /* Build configuration list for PBXProject "Ecomerce" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3447DEA8227620570054B7C1;
+			productRefGroup = 3447DEB2227620580054B7C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3447DEB0227620570054B7C1 /* Ecomerce */,
+				3447DEC42276205A0054B7C1 /* EcomerceTests */,
+				3447DECF2276205A0054B7C1 /* EcomerceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3447DEAF227620570054B7C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3447DEBF2276205A0054B7C1 /* LaunchScreen.storyboard in Resources */,
+				3447DEBC2276205A0054B7C1 /* Assets.xcassets in Resources */,
+				3447DEBA227620580054B7C1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3447DEC32276205A0054B7C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3447DECE2276205A0054B7C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3447DEAD227620570054B7C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3447DEB7227620580054B7C1 /* ViewController.swift in Sources */,
+				3447DEB5227620580054B7C1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3447DEC12276205A0054B7C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3447DECA2276205A0054B7C1 /* EcomerceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3447DECC2276205A0054B7C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3447DED52276205A0054B7C1 /* EcomerceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3447DEC72276205A0054B7C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3447DEB0227620570054B7C1 /* Ecomerce */;
+			targetProxy = 3447DEC62276205A0054B7C1 /* PBXContainerItemProxy */;
+		};
+		3447DED22276205A0054B7C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3447DEB0227620570054B7C1 /* Ecomerce */;
+			targetProxy = 3447DED12276205A0054B7C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3447DEB8227620580054B7C1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3447DEB9227620580054B7C1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3447DEBD2276205A0054B7C1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3447DEBE2276205A0054B7C1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3447DED72276205A0054B7C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3447DED82276205A0054B7C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3447DEDA2276205A0054B7C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Ecomerce/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ecomerce.Ecomerce;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3447DEDB2276205A0054B7C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Ecomerce/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ecomerce.Ecomerce;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3447DEDD2276205A0054B7C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EcomerceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ecomerce.EcomerceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ecomerce.app/Ecomerce";
+			};
+			name = Debug;
+		};
+		3447DEDE2276205A0054B7C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EcomerceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ecomerce.EcomerceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ecomerce.app/Ecomerce";
+			};
+			name = Release;
+		};
+		3447DEE02276205A0054B7C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EcomerceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ecomerce.EcomerceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ecomerce;
+			};
+			name = Debug;
+		};
+		3447DEE12276205A0054B7C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EcomerceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ecomerce.EcomerceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ecomerce;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3447DEAC227620570054B7C1 /* Build configuration list for PBXProject "Ecomerce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3447DED72276205A0054B7C1 /* Debug */,
+				3447DED82276205A0054B7C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3447DED92276205A0054B7C1 /* Build configuration list for PBXNativeTarget "Ecomerce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3447DEDA2276205A0054B7C1 /* Debug */,
+				3447DEDB2276205A0054B7C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3447DEDC2276205A0054B7C1 /* Build configuration list for PBXNativeTarget "EcomerceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3447DEDD2276205A0054B7C1 /* Debug */,
+				3447DEDE2276205A0054B7C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3447DEDF2276205A0054B7C1 /* Build configuration list for PBXNativeTarget "EcomerceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3447DEE02276205A0054B7C1 /* Debug */,
+				3447DEE12276205A0054B7C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3447DEA9227620570054B7C1 /* Project object */;
+}
