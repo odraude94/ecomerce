@@ -13,8 +13,11 @@
 		3447DEBF2276205A0054B7C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3447DEBD2276205A0054B7C1 /* LaunchScreen.storyboard */; };
 		3447DECA2276205A0054B7C1 /* EcomerceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3447DEC92276205A0054B7C1 /* EcomerceTests.swift */; };
 		3447DED52276205A0054B7C1 /* EcomerceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3447DED42276205A0054B7C1 /* EcomerceUITests.swift */; };
-		3447DEE322762AD50054B7C1 /* SingInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3447DEE222762AD50054B7C1 /* SingInVC.swift */; };
 		3447DEE622762D610054B7C1 /* EffectsUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3447DEE522762D610054B7C1 /* EffectsUI.swift */; };
+		346B486C227A02EF00BEDF4E /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346B486B227A02EF00BEDF4E /* Colors.swift */; };
+		346B486E227A0D1600BEDF4E /* ChoseSingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346B486D227A0D1600BEDF4E /* ChoseSingVC.swift */; };
+		346B4870227A0F9100BEDF4E /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346B486F227A0F9100BEDF4E /* SignInVC.swift */; };
+		346B4872227A0FF300BEDF4E /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346B4871227A0FF300BEDF4E /* SignUpVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,8 +50,11 @@
 		3447DED02276205A0054B7C1 /* EcomerceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EcomerceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3447DED42276205A0054B7C1 /* EcomerceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcomerceUITests.swift; sourceTree = "<group>"; };
 		3447DED62276205A0054B7C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3447DEE222762AD50054B7C1 /* SingInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingInVC.swift; sourceTree = "<group>"; };
 		3447DEE522762D610054B7C1 /* EffectsUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectsUI.swift; sourceTree = "<group>"; };
+		346B486B227A02EF00BEDF4E /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		346B486D227A0D1600BEDF4E /* ChoseSingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoseSingVC.swift; sourceTree = "<group>"; };
+		346B486F227A0F9100BEDF4E /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
+		346B4871227A0FF300BEDF4E /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				3447DEE522762D610054B7C1 /* EffectsUI.swift */,
+				346B486B227A02EF00BEDF4E /* Colors.swift */,
 			);
 			path = "Extensions and Helpers";
 			sourceTree = "<group>";
@@ -139,7 +146,9 @@
 		3447DEE722762FD90054B7C1 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				3447DEE222762AD50054B7C1 /* SingInVC.swift */,
+				346B486D227A0D1600BEDF4E /* ChoseSingVC.swift */,
+				346B486F227A0F9100BEDF4E /* SignInVC.swift */,
+				346B4871227A0FF300BEDF4E /* SignUpVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -275,9 +284,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3447DEE322762AD50054B7C1 /* SingInVC.swift in Sources */,
+				346B486E227A0D1600BEDF4E /* ChoseSingVC.swift in Sources */,
+				346B486C227A02EF00BEDF4E /* Colors.swift in Sources */,
 				3447DEE622762D610054B7C1 /* EffectsUI.swift in Sources */,
 				3447DEB5227620580054B7C1 /* AppDelegate.swift in Sources */,
+				346B4872227A0FF300BEDF4E /* SignUpVC.swift in Sources */,
+				346B4870227A0F9100BEDF4E /* SignInVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

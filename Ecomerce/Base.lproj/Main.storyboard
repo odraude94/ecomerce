@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina3_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -11,16 +11,31 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Sing InVC-->
+        <!--View Controller-->
+        <scene sceneID="xVy-Eg-vwP">
+            <objects>
+                <viewController id="xrn-Xc-me4" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5qg-nN-tlA">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="RcT-Ou-eot"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kao-JY-qqI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-15" y="-692"/>
+        </scene>
+        <!--Chose SingVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="SingInVC" customModule="Ecomerce" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ChoseSingVC" customModule="Ecomerce" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_white" translatesAutoresizingMaskIntoConstraints="NO" id="Brs-CP-aVM">
-                                <rect key="frame" x="87.5" y="72" width="200" height="200"/>
+                                <rect key="frame" x="60" y="72" width="200" height="200"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="150" id="HYz-Zj-Cly">
                                         <variation key="heightClass=regular-widthClass=compact" constant="200"/>
@@ -63,28 +78,30 @@
                                 </variation>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="AuP-bW-60Z">
-                                <rect key="frame" x="16" y="457" width="343" height="100"/>
+                                <rect key="frame" x="16" y="270" width="288" height="100"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bvH-P6-SaY">
-                                        <rect key="frame" x="0.0" y="0.0" width="343" height="45"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                        <state key="normal" title="Sin UP">
-                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="start:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IC4-3j-ssC"/>
-                                        </connections>
-                                    </button>
                                     <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="heV-r9-mis">
-                                        <rect key="frame" x="0.0" y="55" width="343" height="45"/>
-                                        <color key="backgroundColor" name="Buttons "/>
+                                        <rect key="frame" x="0.0" y="0.0" width="288" height="45"/>
+                                        <color key="backgroundColor" red="0.68235294120000001" green="0.81960784310000001" blue="0.21176470589999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                        <state key="normal" title="Sing IN">
+                                        <state key="normal" title="SIGN IN">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <action selector="start:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qpk-xN-ROl"/>
+                                            <action selector="start:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JHg-Su-7ay"/>
+                                            <segue destination="qe7-VX-kcp" kind="show" id="AaZ-Em-1ZB"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bvH-P6-SaY">
+                                        <rect key="frame" x="0.0" y="55" width="288" height="45"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <state key="normal" title="SIGN UP">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="start:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yQ1-FK-ZFX"/>
+                                            <segue destination="xrn-Xc-me4" kind="show" id="blb-KZ-gku"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -125,7 +142,7 @@
                                 </variation>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" name="Primary 2"/>
+                        <color key="backgroundColor" name="Buttons "/>
                         <constraints>
                             <constraint firstItem="Brs-CP-aVM" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="52" id="5qM-qE-9T2"/>
                             <constraint firstItem="AuP-bW-60Z" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="6qO-Ua-Y00"/>
@@ -188,21 +205,34 @@
                         </variation>
                     </view>
                     <connections>
-                        <outletCollection property="btnSing" destination="bvH-P6-SaY" collectionClass="NSMutableArray" id="9TZ-V6-Dit"/>
-                        <outletCollection property="btnSing" destination="heV-r9-mis" collectionClass="NSMutableArray" id="2Xb-1I-QsW"/>
+                        <outletCollection property="btnSing" destination="bvH-P6-SaY" collectionClass="NSMutableArray" id="9qj-fQ-JDz"/>
+                        <outletCollection property="btnSing" destination="heV-r9-mis" collectionClass="NSMutableArray" id="bhY-lP-xRa"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-15" y="27"/>
+        </scene>
+        <!--Sign InVC-->
+        <scene sceneID="16Y-79-PcP">
+            <objects>
+                <viewController id="qe7-VX-kcp" customClass="SignInVC" customModule="Ecomerce" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vGu-qd-hiR">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Iv0-Gm-PxP"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fr7-Bh-BQy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="878" y="27"/>
         </scene>
     </scenes>
     <resources>
         <image name="logo_white" width="640" height="408"/>
         <namedColor name="Buttons ">
             <color red="0.062745098039215685" green="0.36862745098039218" blue="0.3843137254901961" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-        <namedColor name="Primary 2">
-            <color red="0.25490196078431371" green="0.66666666666666663" blue="0.6588235294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
     </resources>
 </document>
